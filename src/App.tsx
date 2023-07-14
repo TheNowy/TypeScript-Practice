@@ -1,10 +1,13 @@
-import React, { useEffect, useState } from "react";
-import "./App.scss";
+import { useState } from "react";
+import { Wrapper } from "./components/wrapper/Wrapper";
+import "./App.module.scss";
 
-export const App = () => {
+function App() {
   return (
     <>
-        {/* <Wrapper /> */}
+        <Wrapper />
     </>
   );
-};
+}
+
+export default App;
