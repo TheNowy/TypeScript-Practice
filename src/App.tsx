@@ -1,12 +1,10 @@
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.scss";
 
-function App() {
+export const App = () => {
   return (
     <>
-      <h1>Nowy TS</h1>
+        {/* <Wrapper /> */}
     </>
   );
-}
-
-export default App;
+};
