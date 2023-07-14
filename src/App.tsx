@@ -4,7 +4,7 @@ import "./App.scss";
 function App() {
   return (
     <>
-      <h1>Hello Tormoz</h1>
+      <h1>Nowy TS</h1>
     </>
   );
 }
