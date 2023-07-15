@@ -2,11 +2,13 @@
   margin: 0;
   padding: 0;
   transition: .5s;
-  background-color: #3f3f3f;
-  color: white;
 }
 
 ::selection {
   background-color: #fff;
   color: black;
+}
+
+::-webkit-scrollbar {
+  width: 0;
 }

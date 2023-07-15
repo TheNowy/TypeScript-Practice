@@ -1,11 +1,18 @@
-import React from 'react'
+import React from "react";
+import scss from "./Home.module.scss";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
-  )
-}
+    <>
+      <div className={scss.page_wrapper}>
+        <div className={scss.container}>
+          <div className={scss.home_content}>
+            <h1>Hello World</h1>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
-export default Home
+export default Home;
