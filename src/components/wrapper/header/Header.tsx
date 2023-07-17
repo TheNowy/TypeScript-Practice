@@ -6,9 +6,14 @@ export const Header = () => {
   return (
     <nav>
       <div className={scss.header}>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/blog">Blog</NavLink>
+        <div className={scss.logo}>
+          <h1>Nowy</h1>
+        </div>
+        <div className={scss.links}>
+        <NavLink to="/" className={scss.link}>Home</NavLink>
+        <NavLink to="/blog" className={scss.link}>Blog</NavLink>
       </div>
+    </div>
     </nav>
   );
 };
