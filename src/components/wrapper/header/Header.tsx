@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import { useEffect, useState } from "react"; // На самом деле, здесь не используется, но оставим для примера
 import { NavLink } from "react-router-dom";
 import scss from "./Header.module.scss";
 
-export const Header = () => {
+export const Header: React.FC = () => {
   return (
     <nav>
       <div className={scss.header}>
@@ -10,10 +11,14 @@ export const Header = () => {
           <h1>Nowy</h1>
         </div>
         <div className={scss.links}>
-        <NavLink to="/" className={scss.link}>Home</NavLink>
-        <NavLink to="/blog" className={scss.link}>Blog</NavLink>
+          <NavLink to="/" className={scss.link}>
+            Home
+          </NavLink>
+          <NavLink to="/blog" className={scss.link}>
+            Blog
+          </NavLink>
+        </div>
       </div>
-    </div>
     </nav>
   );
 };
