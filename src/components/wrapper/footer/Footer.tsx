@@ -5,7 +5,7 @@ export const Footer = () => {
     <div>
       <footer>
         <div className={scss.footer_cont}>
-          <h1>© 2023 Toktosunov Zhusup</h1>
+          <h1>© 2023 Nowy</h1>
         </div>
       </footer>
     </div>
