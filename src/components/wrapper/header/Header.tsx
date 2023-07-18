@@ -1,5 +1,3 @@
-import React from "react";
-import { useEffect, useState } from "react"; // На самом деле, здесь не используется, но оставим для примера
 import { NavLink } from "react-router-dom";
 import scss from "./Header.module.scss";
 

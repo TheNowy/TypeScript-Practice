@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Wrapper } from "./components/wrapper/Wrapper";
 import "./App.module.scss";
 

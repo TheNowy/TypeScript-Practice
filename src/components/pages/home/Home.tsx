@@ -1,4 +1,3 @@
-import React from "react";
 import scss from "./Home.module.scss";
 
 const Home = () => {

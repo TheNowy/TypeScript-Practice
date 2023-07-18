@@ -1,4 +1,3 @@
-import React from 'react'
 import scss from './Blog.module.scss'
 
 const Blog = () => {
