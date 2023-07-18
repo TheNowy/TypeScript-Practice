@@ -6,10 +6,16 @@
 }
 
 ::selection {
-  background-color: #fff;
-  color: black;
+  background-color: #404040;
+  color: rgb(255, 255, 255);
 }
-
 ::-webkit-scrollbar {
-  width: 0;
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(162, 162, 162);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(104, 104, 104);
+  border-radius: 0 0 3px 3px;
 }
