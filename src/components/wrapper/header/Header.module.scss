@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
 
-
   background-color: rgb(49, 49, 49);
 
   .header_wrapper {
@@ -15,26 +14,55 @@
     justify-content: space-between;
     align-items: center;
     .logo {
-      h1 {
-        color: white;
-        padding: 10px 10px;
-        text-transform: uppercase;
-        border-radius: 5px;
-        font-size: 25px;
+      color: white;
+      padding: 10px 10px;
+      text-transform: uppercase;
+      border-radius: 5px;
+      font-size: 25px;
+      font-weight: 600;
+      font-family: sans-serif;
+      text-decoration: none;
 
-        &:hover {
-          background-color: rgba(255, 255, 255, 0.285);
-        }
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.285);
       }
     }
     .links {
-      width: 16rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      .burger {
+        display: block;
+        width: 40px;
+        padding: 5px;
+
+        &.open {
+          span:first-child {
+            transform: rotate(45deg) translate(4px, 6px);
+          }
+          span:last-child {
+            transform: rotate(-45deg) translate(4px, -6px);
+          }
+        }
+
+        &:hover {
+          background-color: #ffffff41;
+          border-radius: 4px;
+        }
+
+        span {
+          display: block;
+          width: 40px;
+          height: 6px;
+          margin: 6px auto;
+          background-color: #ffffff;
+          border-radius: 2px;
+          transition: 0.2s;
+        }
+      }
       .link {
         border: solid 1px rgba(255, 255, 255, 0.216);
-        border-radius: .3rem;
+        border-radius: 0.3rem;
         display: flex;
         justify-content: center;
         align-items: center;
