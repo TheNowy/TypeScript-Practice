@@ -3,11 +3,17 @@ import { useState } from "react";
 import scss from "./Header.module.scss";
 
 export const Header: React.FC = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+  // const toggleMenu = () => {
+  //   setIsOpen(!isOpen);
+  // };
+
+  const [ isOpen, setIsOpen ] = useState(false)
+
+    const toggleMenu = () => {
+      setIsOpen(!isOpen);
+    }
   return (
     <nav>
       <div className={scss.header}>
