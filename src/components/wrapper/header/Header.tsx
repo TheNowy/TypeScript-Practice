@@ -13,8 +13,8 @@ export const Header: React.FC = () => {
             <NavLink to="/" className={scss.link}>
               Home
             </NavLink>
-            <NavLink to="/blog" className={scss.link}>
-              Blog
+            <NavLink to="/Catalog" className={scss.link}>
+              Catalog
             </NavLink>
           </div>
         </div>
