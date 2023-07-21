@@ -1,5 +1,5 @@
 .header {
-  position: fixed;
+  position: relative;
   width: 100%;
   padding: 20px 0;
   display: flex;
@@ -9,7 +9,7 @@
   background-color: rgb(49, 49, 49);
 
   .header_wrapper {
-    width: 90%;
+    width: 83%;
     display: flex;
     justify-content: space-between;
     align-items: center;
