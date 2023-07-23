@@ -32,7 +32,7 @@ export const Header: React.FC = () => {
           </div>
         </div>
       </div>
-      {openProfile && <Dropmenu isOpen={isOpen} />}
+      {openProfile && <Dropmenu/>}
     </nav>
   );
 };

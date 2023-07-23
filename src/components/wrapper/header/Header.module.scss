@@ -34,7 +34,8 @@
       .burger {
         display: block;
         width: 40px;
-        padding: 5px;
+        padding: 10px;
+        border-radius: 3px;
 
         &.open {
           span:first-child {
@@ -47,7 +48,6 @@
 
         &:hover {
           background-color: #ffffff41;
-          border-radius: 4px;
         }
 
         span {
