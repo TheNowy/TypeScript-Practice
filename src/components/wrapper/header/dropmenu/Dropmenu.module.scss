@@ -1,5 +1,6 @@
 .wrapper_adpt {
   position: absolute;
+  top: 65px;
   width: 100%;
   padding: 5px 0;
   display: flex;
@@ -47,6 +48,7 @@
           color: white;
           text-decoration: none;
           border-radius: 5px;
+          border: solid 1px #6b6b6ba0;
           background-color: rgba(79, 78, 78, 0.818);
 
           &:hover {

@@ -1,12 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Kanit:600,600italic,700,700italic,800,800italic,900,900italic);
+
 .header {
-  position: relative;
+  position: absolute;
   width: 100%;
-  padding: 20px 0;
+  padding: 10px 0;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background-color: rgb(49, 49, 49);
+  background-color: rgba(255, 255, 255, 0);
 
   .header_wrapper {
     width: 75%;
@@ -14,17 +16,37 @@
     justify-content: space-between;
     align-items: center;
     .logo {
-      color: white;
-      padding: 10px 10px;
-      text-transform: uppercase;
       border-radius: 5px;
-      font-size: 25px;
-      font-weight: 600;
-      font-family: sans-serif;
-      text-decoration: none;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0 0.3rem;
 
+      text-decoration: none;
+      font-style: none;
+      .logo_text {
+        color: rgb(255, 255, 255);
+        padding: 10px 3px;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: 600;
+        font-family: "Kanit", sans-serif;
+      }
+      span {
+        border: 1px solid #20d74b;
+        border-radius: 16px;
+        color: #23dc4e;
+        font-size: 8pt;
+        font-weight: 600;
+        padding: 0.1rem 0.3rem;
+        text-transform: uppercase;
+      }
+      img {
+        width: 40px;
+        height: 40px;
+      }
       &:hover {
-        background-color: rgba(255, 255, 255, 0.285);
+        background-color: rgba(255, 255, 255, 0.216);
       }
     }
     .links {
@@ -39,15 +61,16 @@
 
         &.open {
           span:first-child {
-            transform: rotate(45deg) translate(4px, 6px);
+            transform: rotate(45deg) translate(3px, 6px);
           }
           span:last-child {
-            transform: rotate(-45deg) translate(4px, -6px);
+            width: 40px;
+            transform: rotate(-45deg) translate(3px, -6px);
           }
         }
 
         &:hover {
-          background-color: #ffffff41;
+          background-color: rgba(255, 255, 255, 0.292);
         }
 
         span {
@@ -55,9 +78,13 @@
           width: 40px;
           height: 6px;
           margin: 6px auto;
-          background-color: #ffffff;
+          background-color: rgb(255, 255, 255);
           border-radius: 12px;
           transition: 0.2s;
+
+          &:last-child {
+            width: 30px;
+          }
         }
       }
       .link {
