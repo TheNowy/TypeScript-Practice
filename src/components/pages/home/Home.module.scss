@@ -16,8 +16,15 @@
       background-size: cover;
       min-height: 100vh;
 
-      h1 {
-        color: gold;
+      .icon_container {
+        svg {
+          font-size: 80px;
+          color: rgb(255, 255, 255);
+
+          &:hover {
+            color: rgba(255, 255, 255, 0.638);
+          }
+        }
       }
     }
   }

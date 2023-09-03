@@ -1,5 +1,5 @@
 import scss from "./Home.module.scss";
-import GitHubIcon from '@mui/icons-material/GitHub';
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Home = () => {
   return (
@@ -7,7 +7,9 @@ const Home = () => {
       <div className={scss.page_wrapper}>
         <div className={scss.container}>
           <div className={scss.home_content}>
-          <h1><GitHubIcon></GitHubIcon></h1>
+            <h1 className={scss.icon_container}>
+              <GitHubIcon/>
+            </h1>
           </div>
         </div>
       </div>
