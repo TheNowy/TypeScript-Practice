@@ -18,8 +18,8 @@ export const Header: React.FC = () => {
         <div className={scss.header_wrapper}>
           <NavLink to="/" className={scss.logo}>
             <img src="../../../../../Logo&White.png" alt="" />
-            <h3 className={scss.logo_text}>nowy</h3>
-            <span>BETA</span>
+            <h3 className={scss.logo_text}>nova</h3>
+            <span>BETA 1.16.5</span>
           </NavLink>
           <div className={scss.links}>
             <div
