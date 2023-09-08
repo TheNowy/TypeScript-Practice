@@ -12,7 +12,13 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url(../../../../public/nova_bg.jpg);
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 1)
+        ),
+        url(../../../../nova_bg.jpg);
       background-size: cover;
       min-height: 100vh;
 
@@ -36,10 +42,10 @@
           h1 {
             font-size: 2.5rem;
             width: 100%;
-            font-family: Open Sans,sans-serif;
+            font-family: Open Sans, sans-serif;
             padding: 10px 0;
 
-            margin-right: 22rem;
+            margin-right: 0;
             display: flex;
             justify-content: center;
 
@@ -49,12 +55,31 @@
             font-size: 16pt;
             width: 100%;
 
-            font-family: Open Sans,sans-serif;
+            font-family: Open Sans, sans-serif;
             font-weight: 500;
             display: flex;
             justify-content: center;
 
             color: white;
+          }
+          .button_container {
+            width: 100%;
+            margin-top: 15px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .buy_dis {
+              margin: 5px;
+              position: relative;
+              font-size: 12pt;
+              border: none !important;
+              border-radius: 16px;
+              text-shadow: 0 0 2px var(white);
+              padding: 0.5rem 1rem;
+              background: linear-gradient(to right, white, rgb(151, 151, 151));
+            }
           }
         }
         .nova_gui {

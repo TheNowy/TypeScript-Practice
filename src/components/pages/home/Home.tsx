@@ -10,14 +10,19 @@ const Home = () => {
           <div className={scss.home_content}>
             <div className={scss.main_page}>
               <div className={scss.main_title}>
-                <h1>О нас</h1>
-                <h3>
-                  Мы предоставляем вам лучший клиент для <br /> майнкрафта,
-                  который даст вам наилучшие <br /> впечатления от игры.
-                </h3>
+                <div className={scss.title_content}>
+                  <h1>О нас</h1>
+                  <h3>
+                    Мы предоставляем вам лучший клиент для <br /> майнкрафта,
+                    который даст вам наилучшие <br /> впечатления от игры.
+                  </h3>
+                </div>
+                <div className={scss.button_container}>
+                  <button className={scss.buy_dis}>Купить</button>
+                  <button className={scss.buy_dis}>Подробнее</button>
+                </div>
               </div>
               <div className={scss.nova_gui}>
-                
                 <img src="../../../../nova.png" alt="" />
               </div>
             </div>
