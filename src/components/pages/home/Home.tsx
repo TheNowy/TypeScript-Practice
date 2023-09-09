@@ -1,6 +1,9 @@
 import scss from "./Home.module.scss";
+import { Tilt } from "react-tilt";
 
-// import GitHubIcon from "@mui/icons-material/GitHub";
+//Icon_Imports
+import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
+import LocalMallIcon from "@mui/icons-material/LocalMall";
 
 const Home = () => {
   return (
@@ -11,19 +14,27 @@ const Home = () => {
             <div className={scss.main_page}>
               <div className={scss.main_title}>
                 <div className={scss.title_content}>
-                  <h1>О нас</h1>
+                  <h3>О нас</h3>
                   <h3>
                     Мы предоставляем вам лучший клиент для <br /> майнкрафта,
                     который даст вам наилучшие <br /> впечатления от игры.
                   </h3>
                 </div>
                 <div className={scss.button_container}>
-                  <button className={scss.buy_dis}>Купить</button>
-                  <button className={scss.buy_dis}>Подробнее</button>
+                  <button className={scss.buy_dis}>
+                    {" "}
+                    <LocalMallIcon className={scss.buy}/> Купить
+                  </button>
+                  <button className={scss.buy_dis}>
+                    {" "}
+                    Подробнее <ArrowCircleRightIcon className={scss.arrow}/>
+                  </button>
                 </div>
               </div>
               <div className={scss.nova_gui}>
-                <img src="../../../../nova.png" alt="" />
+                <Tilt>
+                  <img src="../../../../nova.png" alt="" />
+                </Tilt>
               </div>
             </div>
           </div>
