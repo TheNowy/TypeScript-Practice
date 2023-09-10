@@ -19,9 +19,15 @@ export const Header: React.FC = () => {
           <NavLink to="/" className={scss.logo}>
             <img src="../../../../../Logo&White.png" alt="" />
             <h3 className={scss.logo_text}>nova</h3>
-            <span>BETA 1.16.5</span>
+            <span>БЕТА 1.16.5</span>
           </NavLink>
           <div className={scss.links}>
+            <NavLink to="/" className={scss.linksD}>
+                Home
+            </NavLink>
+            <NavLink to="/Catalog" className={scss.linksD}>
+                Catalog
+            </NavLink>
             <div
               className={`${scss.burger} ${isOpen ? scss.open : ""}`}
               onClick={() => {

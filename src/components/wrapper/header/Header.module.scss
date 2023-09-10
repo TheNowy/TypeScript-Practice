@@ -105,6 +105,46 @@
           border: solid 1px white;
         }
       }
+      .linksD {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        padding: 10px;
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+        position: relative;
+        text-decoration: none;
+
+        &::after {
+          content: "";
+          width: 0;
+          height: 4px;
+          position: absolute;
+          bottom: -5px;
+          left: 50%;
+          transform: translateX(-50%);
+          background: #ff0000;
+          transition: width 0.3s;
+          border-radius: 3px;
+
+          &:hover {
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+    .header_wrapper {
+      .links {
+        .burger {
+          display: none;
+        }
+      }
     }
   }
 }
