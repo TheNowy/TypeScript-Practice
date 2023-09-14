@@ -12,8 +12,11 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      // background-image: linear-gradient(rgba(0, 0, 0, 0.5), #121214),
+      //   url(../../../../nova_bg.jpg);
+      // background: linear-gradient(to right, blue, white);
       background-image: linear-gradient(rgba(0, 0, 0, 0.4), #121214),
-        url(../../../../nova_bg.jpg);
+        url(https://i.yapx.cc/PdrB4.gif);
       background-size: cover;
       min-height: 100vh;
 
@@ -24,7 +27,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
         .main_title {
           padding: 7.3rem 0;
           width: 100%;
