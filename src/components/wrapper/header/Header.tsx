@@ -7,8 +7,6 @@ import DownloadIcon from "@mui/icons-material/Download";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import LocalMallIcon from "@mui/icons-material/LocalMall";
 import LoginIcon from "@mui/icons-material/Login";
-import ContactsIcon from "@mui/icons-material/Contacts";
-import LaptopChromebookIcon from "@mui/icons-material/LaptopChromebook";
 
 export const Header: React.FC = () => {
   const [headerScroll, setHeaderScroll] = useState(false);
